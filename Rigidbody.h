@@ -29,3 +29,5 @@ struct RigidBody
         acceleration = Vector2(0, 0); 
     }
 };
+
+// Implement the same thing in 3D later 
