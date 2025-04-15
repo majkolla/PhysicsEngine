@@ -19,7 +19,7 @@ struct Vector2
         return Vector2(x - other.x, y - other.y);
     }
 
-    Vector2 operator*(float scalar) const
+    Vector2 operator*(float scalar) 
     {
         return Vector2(x * scalar, y * scalar);
     }
