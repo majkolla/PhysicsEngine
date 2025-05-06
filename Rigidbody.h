@@ -57,8 +57,6 @@ struct Circle : public RigidBody
     Circle(const Vector2& pos, float mass, float radius)
         : RigidBody(pos, mass), radius(radius) {}
     // Add more circle specific functions here
-
-
     void SetRadius(float r)
     {
         radius = r;
@@ -88,4 +86,13 @@ struct Rectangle : public RigidBody
 struct Polygon : public RigidBody
 {
 
+}; 
+
+struct Rigidbody3D 
+{
+    Vector3 acceleration; 
+    Vector3 position; 
+    Vector3 velocity; 
+    float mass; 
+    float inversemass; 
 }; 
